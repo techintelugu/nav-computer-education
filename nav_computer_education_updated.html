@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#eef7ff">
+<title>NAV Computer Education | Computer Learning</title>
+<style>
+:root{--blue:#2878e8;--cyan:#64d7ef;--ink:#13233d;--muted:#64748b;--line:#dce8f5;--bg:#f5faff;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}a{color:inherit}button,input{font:inherit}button{cursor:pointer}.top{background:linear-gradient(120deg,#eaf5ff,#f7fdff);border-bottom:1px solid var(--line)}nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.brand{font-weight:850;font-size:1.15rem;letter-spacing:-.5px}.brand span{color:var(--blue)}nav .links{display:flex;gap:15px;flex-wrap:wrap;font-size:.92rem}nav a{text-decoration:none;color:#344762}nav a:hover{color:var(--blue)}.hero{max-width:1100px;margin:auto;padding:55px 20px 60px;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}.eyebrow{display:inline-block;background:#dff4ff;color:#1764aa;padding:7px 12px;border-radius:99px;font-weight:700;font-size:.82rem}.hero h1{font-size:clamp(2.1rem,6vw,3.6rem);line-height:1.08;letter-spacing:-1.7px;margin:18px 0}.hero h1 span{color:var(--blue)}.hero p{color:var(--muted);font-size:1.05rem;line-height:1.7;max-width:560px}.btn{display:inline-block;border:0;border-radius:12px;padding:12px 17px;font-weight:750;text-decoration:none}.primary{background:var(--blue);color:white;box-shadow:0 7px 18px #2878e82a}.secondary{background:white;border:1px solid var(--line);color:var(--ink)}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.hero-card{background:white;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 18px 50px #2d6ca312}.hero-card .big{font-size:2.8rem}.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.mini{padding:14px;background:#f4f9ff;border-radius:14px}.mini strong{display:block}.mini small{color:var(--muted)}main{max-width:1100px;margin:auto;padding:25px 20px 60px}.section{margin:25px 0 40px;scroll-margin-top:18px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin-bottom:18px}.section h2{font-size:1.65rem;margin:0 0 6px;letter-spacing:-.5px}.section-head p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:19px;box-shadow:0 6px 20px #17436d08}.emoji{width:45px;height:45px;border-radius:13px;display:grid;place-items:center;background:#eaf5ff;font-size:1.4rem}.card h3{margin:13px 0 7px}.card p{color:var(--muted);line-height:1.55;font-size:.94rem}.tag{display:inline-block;font-size:.76rem;background:#eef7ff;color:#245c9a;padding:5px 8px;border-radius:99px}.card button{margin-top:8px}.panel{background:white;border:1px solid var(--line);border-radius:20px;padding:22px}.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:grid;gap:7px;margin:12px 0}.field label{font-weight:650;font-size:.92rem}.field input{width:100%;padding:12px;border:1px solid #cbd9e8;border-radius:10px;background:white;color:var(--ink)}.field input:focus{outline:2px solid #b7dcff;border-color:var(--blue)}.notice{background:#fff8df;border:1px solid #f5dfa0;border-radius:12px;padding:12px 14px;color:#6d5314;font-size:.9rem;line-height:1.5}.result{margin-top:13px;padding:13px;border-radius:12px;display:none;line-height:1.5}.result.good{display:block;background:#e9fff4;border:1px solid #a6e8c7;color:#12633f}.result.bad{display:block;background:#fff0f0;border:1px solid #f4c0c0;color:#9b2525}.question{padding:15px 0;border-bottom:1px solid var(--line)}.question:last-child{border-bottom:0}.question p{font-weight:700;margin:0 0 10px}.question label{display:block;margin:8px 0;color:#40536b}.score{font-weight:800;margin-top:14px}.footer{background:#eaf4ff;border-top:1px solid var(--line);padding:24px 20px;text-align:center;color:#5a6d85;font-size:.9rem}.small{font-size:.84rem;color:var(--muted)}.hidden{display:none!important}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:35px}.hero-card{max-width:520px}.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}nav .links{gap:10px}.hero h1{letter-spacing:-1px}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.hero{padding-left:16px;padding-right:16px}main{padding-left:16px;padding-right:16px}.panel{padding:17px}nav{padding:14px 16px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <nav>
+    <a class="brand" href="#home" style="text-decoration:none">NAV <span>Computer Education</span></a>
+    <div class="links">
+      <a href="#courses">Courses</a><a href="#notes">PDF Notes</a><a href="#quiz">Quiz</a><a href="#verify">Certificate Check</a><a href="#login">Student Login</a>
+    </div>
+  </nav>
+  <section class="hero" id="home">
+    <div>
+      <span class="eyebrow">LEARN • PRACTISE • GROW</span>
+      <h1>Build your digital skills, <span>one lesson at a time.</span></h1>
+      <p>Beginner-friendly computer learning resources, practice quizzes and notes — designed to help you learn at your own pace.</p>
+      <div class="hero-actions"><a class="btn primary" href="#courses">Explore courses ↗</a><a class="btn secondary" href="#quiz">Try a quick quiz</a></div>
+    </div>
+    <div class="hero-card">
+      <div class="big">💻</div><h2>Your learning space</h2><p>Start with computer basics, then explore office tools and web development.</p>
+      <div class="mini-grid"><div class="mini"><strong>📘 Courses</strong><small>Learn step by step</small></div><div class="mini"><strong>🧠 Quizzes</strong><small>Check your knowledge</small></div><div class="mini"><strong>🗂️ Notes</strong><small>Study resources</small></div><div class="mini"><strong>🏅 Certificates</strong><small>Verify issued records</small></div></div>
+    </div>
+  </section>
+</header>
+<main>
+  <section class="section" id="courses">
+    <div class="section-head"><div><h2>Explore courses</h2><p>Choose a starting point and practise regularly.</p></div></div>
+    <div class="grid">
+      <article class="card"><div class="emoji">🖥️</div><span class="tag">Beginner</span><h3>Computer Fundamentals</h3><p>Learn computer basics, hardware, software, operating systems, files, folders and internet safety.</p><button class="btn secondary" onclick="showCourse('Computer Fundamentals','Lesson plan: 1) What is a computer? 2) Input, output and storage devices. 3) Hardware and software. 4) Operating systems. 5) Files and folders. 6) Internet basics and safety. Add lesson notes and practice questions as you build the course.')">View outline</button></article>
+      <article class="card"><div class="emoji">📝</div><span class="tag">Office skills</span><h3>MS Word</h3><p>Create documents, format text, use tables, set up pages and prepare a resume.</p><button class="btn secondary" onclick="showCourse('MS Word','Lesson plan: 1) Word interface. 2) Typing and editing. 3) Font and paragraph formatting. 4) Page layout. 5) Tables and images. 6) Headers, footers and page numbers. 7) Resume and letter practice. 8) Save, export and print.')">View outline</button></article>
+      <article class="card"><div class="emoji">📊</div><span class="tag">Job skills</span><h3>MS Excel</h3><p>Work with cells, formulas, functions, sorting, filters, charts and reports.</p><button class="btn secondary" onclick="showCourse('MS Excel','Lesson plan: 1) Workbook, worksheets, rows and columns. 2) Data entry and formatting. 3) SUM, AVERAGE, MIN and MAX. 4) IF basics. 5) Sort and filter. 6) Charts. 7) Simple attendance, expense and marks reports. 8) Practice project.')">View outline</button></article>
+      <article class="card"><div class="emoji">💻</div><span class="tag">Programming</span><h3>C Programming</h3><p>Start with syntax, variables, data types, conditions, loops, arrays and functions.</p><button class="btn secondary" onclick="showCourse('C Programming','Lesson plan: 1) Introduction and first program. 2) Variables and data types. 3) Input/output. 4) Operators. 5) if/else and switch. 6) for, while and do-while loops. 7) Arrays and strings. 8) Functions. 9) Small practice programs.')">View outline</button></article>
+      <article class="card"><div class="emoji">🐍</div><span class="tag">Programming</span><h3>Python Programming</h3><p>Learn variables, input/output, conditions, loops, lists, functions and mini projects.</p><button class="btn secondary" onclick="showCourse('Python Programming','Lesson plan: 1) Introduction and print(). 2) Variables and data types. 3) Input and type conversion. 4) Operators. 5) if/elif/else. 6) for and while loops. 7) Lists and dictionaries. 8) Functions. 9) Mini projects such as a calculator and quiz.')">View outline</button></article>
+    </div>
+    <div class="panel hidden" id="courseDetail" style="margin-top:15px"><h3 id="courseTitle"></h3><p id="courseText"></p><button class="btn secondary" onclick="document.getElementById('courseDetail').classList.add('hidden')">Close</button></div>
+  </section>
+  <section class="section" id="notes">
+    <div class="section-head"><div><h2>PDF Notes</h2><p>Add your own lesson PDFs to these buttons when ready.</p></div></div>
+    <div class="grid">
+      <article class="card"><div class="emoji">📄</div><h3>Computer Basics Notes</h3><p>Place a public PDF link here after uploading your notes.</p><a class="btn secondary" href="#setup">How to add notes</a></article>
+      <article class="card"><div class="emoji">📈</div><h3>Excel Notes</h3><p>Formula cheat sheets, examples and practice exercises.</p><a class="btn secondary" href="#setup">How to add notes</a></article>
+      <article class="card"><div class="emoji">🧩</div><h3>HTML Notes</h3><p>Tags, page structure and beginner examples.</p><a class="btn secondary" href="#setup">How to add notes</a></article>
+    </div>
+  </section>
+  <section class="section" id="quiz">
+    <div class="section-head"><div><h2>Quick computer quiz</h2><p>Answer all three questions and check your score.</p></div></div>
+    <div class="panel">
+      <form id="quizForm">
+        <div class="question"><p>1. What does CPU commonly stand for?</p><label><input type="radio" name="q1" value="a" required> Central Processing Unit</label><label><input type="radio" name="q1" value="b"> Computer Personal Utility</label><label><input type="radio" name="q1" value="c"> Central Program User</label></div>
+        <div class="question"><p>2. Which application is mainly used for spreadsheets?</p><label><input type="radio" name="q2" value="a" required> Paint</label><label><input type="radio" name="q2" value="b"> Microsoft Excel</label><label><input type="radio" name="q2" value="c"> Notepad</label></div>
+        <div class="question"><p>3. Which is a safer password practice?</p><label><input type="radio" name="q3" value="a" required> Reuse one password everywhere</label><label><input type="radio" name="q3" value="b"> Share your password with friends</label><label><input type="radio" name="q3" value="c"> Use unique, hard-to-guess passwords</label></div>
+        <button class="btn primary" type="submit">Check my score</button><div id="quizResult" class="result" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+  <section class="section" id="verify">
+    <div class="section-head"><div><h2>Certificate verification</h2><p>Check a certificate record issued by this academy.</p></div></div>
+    <div class="panel">
+      <div class="notice"><strong>Demo mode:</strong> This starter website is not connected to an official certificate database. The sample record below is only for testing the page and is not a real qualification or certificate.</div>
+      <div class="two">
+        <div class="field"><label for="certNo">Certificate No. / Diploma No.</label><input id="certNo" placeholder="e.g. DEMO-1001" autocomplete="off"></div>
+        <div class="field"><label for="regNo">Registration No.</label><input id="regNo" placeholder="e.g. DEMO-REG-01" autocomplete="off"></div>
+      </div>
+      <button class="btn primary" onclick="verifyDemo()">Verify now</button>
+      <div id="certResult" class="result" aria-live="polite"></div>
+      <p class="small">Demo test values: DEMO-1001 and DEMO-REG-01. Do not use these as a real certificate. Replace the demo with a secured database before issuing or verifying actual certificates.</p>
+    </div>
+  </section>
+  <section class="section" id="login">
+    <div class="section-head"><div><h2>Student login</h2><p>Preview of the student sign-in form.</p></div></div>
+    <div class="panel">
+      <div class="notice"><strong>Preview only:</strong> This form does not create accounts or authenticate students. Connect a secure authentication service before collecting real login details.</div>
+      <form id="loginForm">
+        <div class="field"><label for="studentEmail">Email address</label><input id="studentEmail" type="email" placeholder="student@example.com" required autocomplete="email"></div>
+        <div class="field"><label for="studentPassword">Password</label><input id="studentPassword" type="password" placeholder="Enter a test password" required autocomplete="current-password"></div>
+        <button class="btn primary" type="submit">Preview sign in</button><div id="loginResult" class="result" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+  <section class="section" id="setup">
+    <div class="section-head"><div><h2>Next steps to launch</h2><p>Follow these steps on your phone.</p></div></div>
+    <div class="panel">
+      <ol style="line-height:1.9;padding-left:22px">
+        <li>Create a new public repository on GitHub named <strong>nav-computer-education</strong> (you can choose another name).</li>
+        <li>Add a file named <strong>index.html</strong> and paste the contents of this file.</li>
+        <li>Commit the file, then open the repository's <strong>Settings → Pages</strong> and select the <strong>main</strong> branch and <strong>/(root)</strong> folder.</li>
+        <li>After GitHub Pages publishes it, open the website URL shown on the Pages settings screen.</li>
+        <li>Before real student accounts or certificates: create a Supabase project, configure Auth and database tables, enable Row Level Security, and test access rules. Never put a service-role/secret key in website code.</li>
+      </ol>
+      <p><a href="https://github.com/" target="_blank" rel="noopener">Open GitHub</a> · <a href="https://supabase.com/" target="_blank" rel="noopener">Open Supabase</a> · <a href="https://docs.github.com/en/pages" target="_blank" rel="noopener">GitHub Pages guide</a></p>
+    </div>
+  </section>
+</main>
+<footer class="footer">© <span id="year"></span> NAV Computer Education · A beginner-friendly computer learning project.<br>Certificates, accreditation and course completion claims must be genuine and verifiable.</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+function showCourse(title, text){document.getElementById('courseTitle').textContent=title;document.getElementById('courseText').textContent=text;document.getElementById('courseDetail').classList.remove('hidden');document.getElementById('courseDetail').scrollIntoView({behavior:'smooth',block:'center'});}
+document.getElementById('quizForm').addEventListener('submit',function(e){e.preventDefault();const answers={q1:'a',q2:'b',q3:'c'};let score=0;for(const [q,a] of Object.entries(answers)){if(new FormData(this).get(q)===a)score++;}const el=document.getElementById('quizResult');el.className='result good';el.textContent='Your score: '+score+' / 3. '+(score===3?'Excellent work!':score===2?'Good job — review one answer and try again.':'Keep learning and try again!');});
+function verifyDemo(){const c=document.getElementById('certNo').value.trim().toUpperCase();const r=document.getElementById('regNo').value.trim().toUpperCase();const el=document.getElementById('certResult');if(c==='DEMO-1001'&&r==='DEMO-REG-01'){el.className='result good';el.textContent='DEMO RECORD FOUND — Sample student: Demo Learner · Course: Computer Basics (test record only; not a real certificate).';}else{el.className='result bad';el.textContent='No matching demo record found. This starter page checks only the sample values; it is not connected to a real certificate database.';}}
+document.getElementById('loginForm').addEventListener('submit',function(e){e.preventDefault();const el=document.getElementById('loginResult');el.className='result bad';el.textContent='Preview only: no account was created and no password was sent or saved. Secure authentication must be configured before real student sign-in.';});
+</script>
+</body>
+</html>
